@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+User can deposit and withdraw their balance only means employee or bank manager can not deposit and withdraw any user's account
