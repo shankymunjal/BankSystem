@@ -1,0 +1,26 @@
+<h2>Account Details</h2>
+<div class="table-responsive"> 
+	<table class="table table-bordered table-striped"> 
+		<colgroup> 
+			<col class="col-xs-3">
+			<col class="col-xs-3">
+			<col class="col-xs-3">
+		</colgroup> 
+		<thead> 
+			<tr> 
+				<th>Email</th> 
+				<th>Account Number</th>
+				<th>Balance</th>
+			</tr> 
+		</thead> 
+		<tbody> 
+			<tr> 
+				<th scope="row"> 
+					<code><%= @account.user.email %></code> 
+				</th> 
+				<td><%= @account.try(:number) %></td> 
+				<td><%= @account.try(:amount) %></td>
+			</tr> 
+		</tbody> 
+	</table> 
+</div>

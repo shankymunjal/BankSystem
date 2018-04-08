@@ -1,11 +1,9 @@
-<div class="container">
 <h3><%= @user.email %></h3>
 
-  <%= form_for @transaction, url: {action: @action}, :html => {:class => "form-inline"} do |f| %>
-    <div class="form-group mx-sm-3 mb-2">
-      <%= f.label :amount, :class => "sr-only" %>
-      <%=f.number_field :amount, class: "form-control", :autofocus => true %>
-    </div>
-    <button type="submit" class="btn btn-primary mb-2"><%= @action.titleize %></button>
-  <% end %>
+<%= form_for @transaction, url: {action: @action}, :html => {:class => "form-inline"} do |f| %>
+<div class="form-group mx-sm-3 mb-2">
+  <%= f.label :amount, :class => "sr-only" %>
+  <%=f.number_field :amount, class: "form-control", :autofocus => true %>
 </div>
+<button type="submit" class="btn btn-primary mb-2"><%= @action.titleize %></button>
+<% end %>

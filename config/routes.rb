@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   resources :transactions, only: [:index] do
   	post 'deposit', on: :collection
   	post 'withdraw', on: :collection
+    get 'download', on: :collection
   end
   devise_for :users
   resources :accounts

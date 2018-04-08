@@ -1,0 +1,49 @@
+transaction1:
+  id: 1
+  account_id: 1
+  amount: 100
+  type: Deposit
+  created_at: "2018-03-07 08:51:43"
+
+transaction2:
+  id: 2
+  account_id: 1
+  amount: 200
+  type: Deposit
+  created_at: "2018-03-17 08:51:43"
+
+transaction3:
+  id: 3
+  account_id: 1
+  amount: 100
+  type: Withdraw
+  created_at: "2018-04-07 08:51:43"
+
+transaction4:
+  id: 4
+  account_id: 1
+  amount: 100
+  type: Deposit
+  created_at: "2018-03-07 08:51:43"
+
+transaction5:
+  id: 5
+  account_id: 1
+  amount: 100
+  type: Deposit
+  created_at: "2018-03-07 08:51:43"
+
+transaction6:
+  id: 6
+  account_id: 1
+  amount: 100
+  type: Withdraw
+  created_at: "2018-03-07 08:51:43"
+
+transaction7:
+  id: 7
+  account_id: 1
+  amount: 100
+  type: Deposit
+  created_at: "2018-03-07 08:51:43"
+

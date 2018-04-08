@@ -1,0 +1,17 @@
+bob_account:
+  id: 1
+  user_id: 1
+  amount: 1000
+  number: 1263812
+
+foo_account:
+  id: 2
+  user_id: 2
+  amount: 1000
+  number: 1363812
+
+manager_account:
+  id: 3
+  user_id: 3
+  amount: 1000
+  number: 1463812

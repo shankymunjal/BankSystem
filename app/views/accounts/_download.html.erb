@@ -1,0 +1,13 @@
+<h2>Download History</h2>
+<%= form_tag('/transactions/download', {method: :get, class: 'form-inline'} ) do %>
+	<%= hidden_field_tag :account_id, @account.id %>
+	<label>From</label>
+	<div class="form-group mb-2">
+		<%= date_field_tag :from_date, "", {placeholder: "From Date"} %>
+	</div>
+	<label>To</label>
+	<div class="form-group mx-sm-3 mb-2">
+		<%= date_field_tag :to_date, "", {placeholder: "To Date"} %>
+	</div>
+	<button type="submit" class="btn btn-primary mb-2">Download as CSV</button>
+<% end %>
